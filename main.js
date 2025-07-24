@@ -3,8 +3,8 @@ import { header } from './components/header/headerComponent.js';
 function seccion() {
     let seccion = document.createElement("section");
     
-    let h1 = document.createElement("h1"); // <- Corregido
-    h1.className = "titulo"; // <- Corregido
+    let h1 = document.createElement("h1");
+    h1.className = "titulo"; 
     h1.innerText = "Fabian ";
     seccion.appendChild(h1);
 
@@ -15,8 +15,6 @@ function seccion() {
     return seccion;
 }
 
-// Añade el header al contenedor
 document.getElementById("contenedor-header").appendChild(header());
 
-// Añade la sección al body
 document.body.appendChild(seccion());
