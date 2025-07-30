@@ -1,0 +1,10 @@
+.item {
+  background-color: red;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  width: 300px;
+  height: 200px;
+}
