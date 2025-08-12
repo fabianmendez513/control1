@@ -3,10 +3,12 @@ export function header() {
   contenedor.classList.add("header");
 
   let titulo = document.createElement("h1");
-  titulo.textContent = "Fabian";
+  titulo.textContent = "@fimendez";
 
   let icono = document.createElement("div");
   icono.classList.add("icono");
+  icono.textContent = "😊";
+
 
   contenedor.appendChild(titulo);
   contenedor.appendChild(icono);
