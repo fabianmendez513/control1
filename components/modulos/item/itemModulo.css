@@ -1,0 +1,13 @@
+.item{
+width: 25rem;
+height: 15rem;
+background-color: red;
+}
+.item img{
+  max-width: 100%;
+  max-height: 12rem;
+  border-radius: 10px;
+}
+.verde{
+    background-color: green;
+}

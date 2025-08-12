@@ -1,15 +1,6 @@
-import { header } from './components/header/headerComponent.js';
-import { seccion1 } from './components/seccion1/seccion1Component.js';
+import { header } from "./components/header/headerComponent.js";
+import { seccion } from "./components/seccion1/seccion1Component.js";
 
-function seccion() {
-
-    let seccion = document.createElement("section");
-
-    //header
-    seccion.appendChild(header());
-
-    //seccion
-    seccion.appendChild(seccion1());
-
-    return seccion;
-}
+let app = document.getElementById("app");
+app.appendChild(header());
+app.appendChild(seccion());
