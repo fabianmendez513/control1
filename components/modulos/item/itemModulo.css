@@ -1,0 +1,22 @@
+.seccion-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-height: 600px;
+}
+.item{
+width: 10rem;
+flex: 0 0 400px;
+height: 15rem;
+background-color: white;
+margin: 10%;
+border: 2px solid black;
+}
+.item img{
+  max-width: 100%;
+  max-height: 12rem;
+  border-radius: 10px;
+}
+.verde{
+    background-color: green;
+}
