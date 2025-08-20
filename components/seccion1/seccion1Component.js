@@ -1,5 +1,5 @@
 import { item } from "../modulos/item/itemModulo.js";
-import { productos } from "/database/productos.js";
+import { productos } from "./database/productos.js";
 
 export function seccion() {
   let seccion = document.createElement("section");
